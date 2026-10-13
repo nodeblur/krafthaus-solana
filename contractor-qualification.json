@@ -1,0 +1,58 @@
+{
+  "schema_version": "krafthaus_contractor_qualification_v1",
+  "observed_at": "2026-10-12T19:23:15.615Z",
+  "fictional": true,
+  "cluster": "devnet",
+  "status": "unsigned_path_verified",
+  "broadcast": false,
+  "funded_settlement": "pending_free_faucet_quota_exceeded_2_requests_per_8_hours",
+  "signer_stopped": true,
+  "source_sha256": {
+    "contractor.cjs": "04bc27376e450782db1d29b624a9d072df824a18e132c8924f67f72bed7733bd",
+    "contractor-local.cjs": "407a325319efebc7b7d83694f9abaa595cd9680df5f00b95ab6cccc15c2c4ad7",
+    "executor.cjs": "5ec67d0944c9b0ca485762f6dfca740be284e6a09750d50a84de79e5254ef891",
+    "chain.cjs": "582f85a647cd6973a6aaaa7cf0a968978b8cb6b7f4fe406e6ac0069e3d2eda80",
+    "contractor-policy.mjs": "e2ad84b292a082afbdeb017f5133efd4f20bdd7e6c14ac7259da02c96f8996e4"
+  },
+  "package_sdk_version": "1.98.4",
+  "agreement": {
+    "schema_version": "krafthaus_contractor_agreement_v1",
+    "obligation_id": "demo_obligation_a16efa5b6044429abc4ac2ab873cdfe7",
+    "invoice_id": "demo_invoice_a16efa5b6044429abc4ac2ab873cdfe7",
+    "milestone_id": "fictional_delivery_01",
+    "delivery_sha256": "e4451ed03c9ec340c8900312787e72342d2c949b1e011c2a3d53baff7de86052",
+    "recipient": "FEqCdCex7oQmyD1k59neu5fzjTEYy4KfauwmzZsXYvpa",
+    "lamports": 1000000,
+    "cluster": "devnet"
+  },
+  "trusted_owner_spki": "MCowBQYDK2VwAyEAPNF6igx6S4p5hnSnaWTHRRQSiadd2cfp+uV6NKS2tTY=",
+  "acceptance": {
+    "schema_version": "krafthaus_owner_acceptance_v1",
+    "agreement_hash": "f212ccc5542df4870458226c305c775d335a7d4380c12eee691f49a82f7d5ec2",
+    "accepted_at": "2026-10-12T19:23:13.963Z",
+    "signature_base64": "iGDYt2kjtmCWMMS0vNm73bpsQwiFXYWtsz9BXXzj1/vhucrcDaOMD87AN7qqeiDBXCXtnSxbTmInBzfbS1IsAg=="
+  },
+  "acceptance_gate": {
+    "verdict": "APPROVE",
+    "code": "OWNER_ACCEPTANCE_VERIFIED",
+    "agreementHash": "f212ccc5542df4870458226c305c775d335a7d4380c12eee691f49a82f7d5ec2",
+    "acceptanceHash": "b2f9c6fc1a144242e29b0bd346f9df533b8ec8420b6051a98c300b3bcfaa4d9a",
+    "ownerKeyId": "cfc7df522647738a6690ec0f4b657f28fdb2e174e7315b9a8043b3aab079fcaa"
+  },
+  "decide_input_interpretation": {
+    "quorumSigned": "Verified Ed25519 acceptance from the single configured owner. This is not a DAO quorum.",
+    "recipientVerified": "Exact match to the configured allowlisted address. This is not identity verification."
+  },
+  "decision_id": "dec_6af5d0308fccb5a446c4ffc4",
+  "decision_record_hash": "efc017243c4a6ddfe8eb113646d14be4ccf5b804c416dc03f9254c9f713f6b5d",
+  "approval_id": "b725e6ec-e55f-48df-9d36-86618ff99d67",
+  "message_sha256": "db946603872317686fc80517a7058cab80e2869a82e075b60463020b362d6a4e",
+  "unsigned_transaction_base64": "AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAIEc+PBnccqzwv2GoGr5X1S0LSzEj6ar4neKmxEGP0FkHvTjqr5oQ+BbzLYCCUuV8w4YgI0wprD4ZTJQGKiAubNswAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABUpTWpkpIQZNJOhxYNo4fHw1td28kruB5B+oQEEFRI33kQGBGtA9KV88SbDvkizJfQ7k2yI/N9/4psRFFjn8dAICAgABDAIAAABAQg8AAAAAAAMAVGtyYWZ0aGF1cy1ib3VuZDp2MTpkZWNfNmFmNWQwMzA4ZmNjYjVhNDQ2YzRmZmM0OmI3MjVlNmVjLWU1NWYtNDhkZi05ZDM2LTg2NjE4ZmY5OWQ2Nw==",
+  "checks": {
+    "missing_acceptance": "DEFER",
+    "agent_boolean": "BLOCK",
+    "concurrent_prepare_same_id": true,
+    "changed_amount": "TRANSACTION_CHANGED",
+    "changed_recipient": "TRANSACTION_CHANGED"
+  }
+}
